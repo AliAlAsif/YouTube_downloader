@@ -1,72 +1,65 @@
 
-# 🎥 YouTube Video & Audio Downloader
+# 🎥 YouTube Video & Audio Downloader - Final raw file.py
 
-A lightweight and flexible Python script by **ALI AL ASIF** to download YouTube videos or extract audio in MP3 format using `yt-dlp`.
+This is a Python script by **ALI AL ASIF** to download YouTube videos or extract audio (MP3) using the powerful `yt-dlp` library.
 
 ---
 
 ## ✨ Features
 
-- ✅ Download full video in chosen or best available quality
-- ✅ Extract high-quality audio as `.mp3`
-- ✅ Fast download mode (best quality, minimal prompts)
-- ✅ Manual stream selection (choose resolution/FPS/size)
-- ✅ Supports `cookies.txt` for age-restricted/private content
-- ✅ Cross-platform (Windows/Linux/macOS)
+- ✅ Download full video in selected or best quality
+- ✅ Extract MP3 audio from videos
+- ✅ Optional fast mode for quick downloads
+- ✅ Manual video format selection
+- ✅ Supports `cookies.txt` for age-restricted/private videos
+- ✅ Cross-platform (Windows, macOS, Linux)
 
 ---
 
 ## 📦 Requirements
 
-- Python 3.7+
-- [`yt-dlp`](https://github.com/yt-dlp/yt-dlp)
-- [`ffmpeg`](https://ffmpeg.org/) (for audio conversion)
+- Python 3.7 or higher
+- `yt-dlp` Python library
+- `ffmpeg` installed (required for audio conversion)
 
-### Install dependencies:
+### Install dependencies
 
 ```bash
 pip install yt-dlp
 ```
 
-Make sure `ffmpeg` is installed and available in your system PATH.
+Make sure `ffmpeg` is installed and added to your system's PATH.
 
 ---
 
-## 🚀 Usage
+## 🚀 How to Use
 
 Run the script:
 
 ```bash
-python downloader.py
+python "Final raw file.py"
 ```
 
-### You'll be prompted to:
-1. Choose between **video** or **audio-only** download
-2. Enter a valid **YouTube URL**
-3. Provide an optional **cookies.txt** file path
-4. Choose **fast mode** or manual stream selection
-5. Specify a **download path** (or use the current directory)
+Follow the interactive prompts to:
+1. Choose between video or audio download
+2. Enter a valid YouTube URL
+3. Provide a cookies file path if needed
+4. Choose between fast or manual download
+5. Select download location (default is current folder)
 
 ---
 
-## ⚠️ Important Notice
+## ⚠️ Disclaimer
 
-This tool is developed by **ALI AL ASIF** for **educational and personal use only**.
+This script is provided by **ALI AL ASIF** for **personal, educational, and fair-use purposes only**.
 
-> **You must not use this tool to download copyrighted material without permission.**
+> ⚠️ **Do not use this tool to download copyrighted or illegal content.**
 
-This script is intended to help users:
-- Back up their own YouTube uploads
-- Access royalty-free content
-- Save lectures and educational materials
+Use it only for:
+- Downloading your own content
+- Educational materials
+- Public domain or royalty-free videos
 
-Always respect content creators and YouTube’s [Terms of Service](https://www.youtube.com/t/terms).
+Violating YouTube’s [Terms of Service](https://www.youtube.com/t/terms) is strictly discouraged.
 
----
-
-## 🪪 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-© 2025 ALI AL ASIF
-```
+--
