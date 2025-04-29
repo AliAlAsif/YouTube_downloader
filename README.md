@@ -29,6 +29,7 @@ pip install yt-dlp
 ```
 
 Make sure `ffmpeg` is installed and added to your system's PATH.
+tutorial [clic khere](https://youtu.be/K7znsMo_48I?si=DDKTBEsK2ouuv7MO)
 
 ---
 
