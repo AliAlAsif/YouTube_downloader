@@ -1,4 +1,6 @@
 
+> ⚠️ **This is the old script version — the new app lives at [Universal-Downloader](https://github.com/AliAlAsif/Universal-Downloader)**
+
 # 🎥 YouTube Video & Audio Downloader - Final raw file.py
 
 This is a Python script by **ALI AL ASIF** to download YouTube videos or extract audio (MP3) using the powerful `yt-dlp` library.
